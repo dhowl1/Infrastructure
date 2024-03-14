@@ -1,4 +1,4 @@
-resource "kubernetes_deployment" "prometheus" { //resourse is argument,"" is resource type, and "" resource name
+resource "kubernetes_deployment" "prometheus" {
   metadata {
     name = "prometheus"
     labels = {
